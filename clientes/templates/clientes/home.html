@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            <h4>CLIENTES</h4>
+            <hr>
+            <button class="btn btn-success">Adicionar</button>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Data de nascimento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cliente 1</td>
+                        <td>cliente1@cliente</td>
+                        <td>01/01/1990</td>
+                        <td>
+                            <button class="btn btn-warning">Editar</button>
+                            <button class="btn btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>cliente 2</td>
+                        <td>cliente2@cliente</td>
+                        <td>02/02/1990</td>
+                        <td>
+                            <button class="btn btn-warning">Editar</button>
+                            <button class="btn btn-danger">Excluir</button>
+                        </td>
+                    </tr>
+                    <tr>
+                         <td>cliente 3</td>
+                         <td>cliente3@cliente</td>
+                         <td>03/03/1990</td>
+                        <td>
+                            <button class="btn btn-warning">Editar</button>
+                            <button class="btn btn-danger">Excluir</button>
+                        </td>
+                     </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}
